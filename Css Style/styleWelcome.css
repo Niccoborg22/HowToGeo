@@ -1,0 +1,10 @@
+body {
+  background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1504115332/clients/napavalley/c9d7f440_f150_4d41_8410_1fa18c9988f0_e50a44a0-fe13-4211-93d2-9b411b85296d.jpg");
+  background-size: cover;
+}
+
+.Rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+}
