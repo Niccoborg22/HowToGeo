@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="Css Style/styleWelcome.css" />
   </head>
   <body>
-    <div class="Rectangle"></div>
+    <div class="Rectangle">
+      <h1 id="WelcomeTitle">Welcome to HowToGeo</h1>
+      <p id="Explanation">
+        HowToGeo is a program that helps you decide how to get to your
+        destination amongst these different transportation methods:
+      </p>
+      <ul id="Options">
+        <li>Walking</li>
+        <li>Bike</li>
+        <li>Car</li>
+      </ul>
+      <button id="ButtonIndex" type="button">VAMOS</button>
+      <script>
+        const buttonIndex = document.getElementById("ButtonIndex");
+        buttonIndex.addEventListener("click", function () {
+          window.location.href = "./index.html";
+        });
+      </script>
+    </div>
   </body>
 </html>

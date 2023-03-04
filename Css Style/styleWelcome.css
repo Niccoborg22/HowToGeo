@@ -1,10 +1,70 @@
 body {
   background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1504115332/clients/napavalley/c9d7f440_f150_4d41_8410_1fa18c9988f0_e50a44a0-fe13-4211-93d2-9b411b85296d.jpg");
   background-size: cover;
+  padding: 10px;
 }
 
 .Rectangle {
-  height: 50px;
-  width: 100px;
-  background-color: #555;
+  height: 300px;
+  width: 600px;
+  border: 9px solid white;
+  background-color: transparent;
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#WelcomeTitle {
+  margin-bottom: 0px;
+  color: white;
+  font-family: "Your Cool Font", sans-serif;
+  font-size: 36px;
+}
+
+#Explanation {
+  color: white;
+  font-family: "Your Cool Font", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#Options {
+  color: white;
+  font-family: "Your Cool Font", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#ButtonIndex {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4b6cb7;
+  background-image: linear-gradient(to bottom, #4b6cb7, #182848);
+  color: white;
+  font-family: "Your Cool Font", sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px #182848;
+}
+
+#ButtonIndex:hover {
+  background-color: #182848;
+  text-shadow: none;
+}
+
+#ButtonIndex:active {
+  background-color: #2e4372;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+#ButtonIndex:before {
+  content: "\f09a";
+  font-family: FontAwesome;
+  margin-right: 10px;
 }
