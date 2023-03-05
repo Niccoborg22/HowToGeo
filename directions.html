@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Distances btn two cities App</title>
+    <title>HowToGeo</title>
     <link href="Bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <script
@@ -18,8 +18,8 @@
   <body>
     <div class="jumbotron">
       <div class="container-fluid">
-        <h1>Find the distance between two places</h1>
-        <p>Calculate your travelling distance</p>
+        <h1>HowToGeo</h1>
+        <p>Calculate the travelling distance between two places</p>
         <form class="form-horizontal">
           <div class="form-group">
             <label for="from" class="col-xs-2 control-label"
@@ -33,8 +33,8 @@
                 class="form-control"
               />
             </div>
-            </div> 
-            <div class="form-group">
+          </div>
+          <div class="form-group">
             <label for="to" class="col-xs-2 control-label"
               ><i class="fas fa-map-marker-alt"></i
             ></label>
@@ -45,12 +45,22 @@
                 placeholder="Destination"
                 class="form-control"
               />
-              </div>
             </div>
           </div>
         </form>
+        <div class="col-xs-offset-2 col-xs-10">
+          <button class="btn btn-info bt-lg">
+            <i class="fas fa-directions"></i>
+          </button>
+        </div>
       </div>
+      <div class="container-fluid">
+        <div id="googleMap"></div>
+        <div id="output"></div>
+      </div>
+    </div>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK10YFoDamkEQaKgb1qL88FkMBRXg0ZCU&callback=places"></script>
     <script src="Javascript/directionGoogle.js"></script>
   </body>
 </html>
