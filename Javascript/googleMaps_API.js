@@ -16,6 +16,12 @@ function initMap() {
       map: map,
     });
 
+    // Conditional property to check if a custom icon is inputted
+    if (property.imageIcon) {
+      // set image icon
+      marker.setIcon(property.imageIcon);
+    }
+
     // Conditional property to check if a marker is inputted
     if (property.content) {
       // Add a detail window
@@ -41,7 +47,7 @@ function initMap() {
   ];
 
   // Loop through the MarkerArray to create markers
-  for(let i = 0; i < MarkerArray.length; i++){
+  for (let i = 0; i < MarkerArray.length; i++) {
     addMarker(MarkerArray[i]);
   }
 }

@@ -5,27 +5,36 @@
     <title>HowToGeo</title>
     <link href="Bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <script
-      src="https://kit.fontawesome.com/2915daa3b8.js"
-      crossorigin="anonymous"
-    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
     <link href="Javascript/directionGoogle.js" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2915daa3b8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="jumbotron">
       <div class="container-fluid">
-        <h1>HowToGeo</h1>
-        <p>Calculate the travelling distance between two places</p>
+        <div class="title">
+          <h1>
+            <strong>HowToGeo</strong>
+            <i class="fa-solid fa-diamond-turn-right"></i>
+          </h1>
+          <p>
+            Calculate the travelling distance between two places, please select
+            your starting point and where you want to go to.
+            <strong>Have a great journey!</strong>
+          </p>
+        </div>
         <form class="form-horizontal">
           <div class="form-group">
             <label for="from" class="col-xs-2 control-label"
               ><i class="far fa-dot-circle"></i
             ></label>
-            <div class="col-xs-4">
+            <div class="col-xs-10">
               <input
                 type="text"
                 id="from"
@@ -38,7 +47,7 @@
             <label for="to" class="col-xs-2 control-label"
               ><i class="fas fa-map-marker-alt"></i
             ></label>
-            <div class="col-xs-4">
+            <div class="col-xs-10">
               <input
                 type="text"
                 id="to"
@@ -48,9 +57,9 @@
             </div>
           </div>
         </form>
-        <div class="col-xs-offset-2 col-xs-10">
+        <div class="col-xs-offset-1 col-xs-10">
           <button class="btn btn-info bt-lg">
-            <i class="fas fa-directions"></i>
+            <i class="fas fa-directions"></i> Directions!
           </button>
         </div>
       </div>

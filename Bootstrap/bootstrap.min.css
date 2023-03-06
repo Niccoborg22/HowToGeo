@@ -10,6 +10,9 @@ html {
 }
 body {
   margin: 0;
+  background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1504115332/clients/napavalley/c9d7f440_f150_4d41_8410_1fa18c9988f0_e50a44a0-fe13-4211-93d2-9b411b85296d.jpg");
+  background-size: cover;
+  padding: 10px;
 }
 article,
 aside,
@@ -1607,6 +1610,12 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
 }
 .row {
   margin-right: -15px;
@@ -5056,11 +5065,12 @@ a.badge:hover {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: inherit;
-  background-color: #eee;
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 9px solid white;
 }
 .jumbotron .h1,
 .jumbotron h1 {
@@ -6780,10 +6790,6 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000\9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
-  border-radius: 10px;
 }
 .carousel-indicators .active {
   width: 12px;
@@ -6867,6 +6873,12 @@ button.close {
 .row:before {
   display: table;
   content: " ";
+}
+i.far.fa-dot-circle {
+  font-size: 20px;
+}
+i.fas.fa-map-marker-alt {
+  font-size: 20px;
 }
 .btn-group-vertical > .btn-group:after,
 .btn-toolbar:after,
@@ -7129,4 +7141,5 @@ button.close {
     display: none !important;
   }
 }
+
 /*# sourceMappingURL=bootstrap.min.css.map */
