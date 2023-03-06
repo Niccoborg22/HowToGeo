@@ -8,9 +8,9 @@ body {
   height: 300px;
   width: 600px;
   border: 9px solid white;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
-  top: 30%;
+  top: 26%;
   left: 75%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -21,24 +21,26 @@ body {
 
 #WelcomeTitle {
   margin-bottom: 0px;
-  color: white;
+  color: 182848;
   font-family: "Your Cool Font", sans-serif;
   font-size: 36px;
 }
 
 #Explanation {
-  color: white;
+  color: 182848;
   font-family: "Your Cool Font", sans-serif;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 #Options {
-  color: white;
+  color: 182848;
   font-family: "Your Cool Font", sans-serif;
   font-size: 20px;
   margin-top: 10px;
+  column-count: 3;
+  column-gap: 60px;
 }
 
 #ButtonIndex {
@@ -64,7 +66,27 @@ body {
 }
 
 #ButtonIndex:before {
-  content: "\f09a";
+  content: "\f3c5";
   font-family: FontAwesome;
   margin-right: 10px;
+}
+
+#suggestion {
+  font-family: "Your Cool Font", sans-serif;
+  position: absolute;
+  top: 90%;
+  left: 56.7%;
+  color: white;
+}
+
+#map {
+  height: 300px;
+  width: 600px;
+  position: absolute;
+  top: calc(
+    30% + 300px
+  ); /* Add the height of the rectangle to the top position */
+  left: 75%;
+  transform: translate(-50%, -50%);
+  border: 9px solid white;
 }

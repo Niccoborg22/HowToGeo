@@ -1,7 +1,7 @@
 function initMap() {
   // Map options
   var options = {
-    center: { lat: -34.397, lng: 150.644 },
+    center: { lat: 45.4785, lng: 9.1214 },
     zoom: 8,
   };
 
@@ -29,12 +29,15 @@ function initMap() {
   }
 
   // Add Marker Arrays
-  let  MarkerArray = [
+  let MarkerArray = [
     {
-      location: { lat: -34.397, lng: 150.644 },
-      content: "<h1>Marker 1</h1>",
+      location: { lat: 45.4785, lng: 9.1214 },
+      content: "<h4>San Siro Stadium: the home of A.C. Milan</h4>",
     },
-    { location: { lat: -34.55, lng: 150.55 } },
+    {
+      location: { lat: 45.62, lng: 9.2879 },
+      content: "<h4>Autodromo di Monza: the temple of speed in F1</h4>",
+    },
   ];
 
   // Loop through the MarkerArray to create markers
