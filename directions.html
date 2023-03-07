@@ -9,7 +9,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <link href="Javascript/directionGoogle.js" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/2915daa3b8.js"
       crossorigin="anonymous"
@@ -58,18 +57,20 @@
           </div>
         </form>
         <div class="col-xs-offset-1 col-xs-10">
-          <button class="btn btn-info bt-lg">
+          <button class="btn btn-info bt-lg" onclick="calcRoute()">
             <i class="fas fa-directions"></i> Directions!
           </button>
         </div>
       </div>
       <div class="container-fluid">
         <div id="googleMap"></div>
-        <div id="output"></div>
+        <div id="outputwalking"></div>
+        <div id="outputbicycling"></div>
+        <div id="outputdriving"></div>
       </div>
     </div>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK10YFoDamkEQaKgb1qL88FkMBRXg0ZCU&callback=places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK10YFoDamkEQaKgb1qL88FkMBRXg0ZCU&libraries=places"></script>
     <script src="Javascript/directionGoogle.js"></script>
   </body>
 </html>

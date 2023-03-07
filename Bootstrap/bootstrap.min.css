@@ -9,10 +9,10 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
-  background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1504115332/clients/napavalley/c9d7f440_f150_4d41_8410_1fa18c9988f0_e50a44a0-fe13-4211-93d2-9b411b85296d.jpg");
+  
+  background-color: black;
+  background-image: url("https://cdn.dribbble.com/users/4169708/screenshots/7465126/vintage_travel_4x.jpg");
   background-size: cover;
-  padding: 10px;
 }
 article,
 aside,
@@ -5075,6 +5075,7 @@ a.badge:hover {
 .jumbotron .h1,
 .jumbotron h1 {
   color: inherit;
+  font-weight: bold;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -7142,4 +7143,10 @@ i.fas.fa-map-marker-alt {
   }
 }
 
+#googleMap {
+  width: 80%;
+  height: 400px;
+  border: 9px solid white;
+  margin: 20px auto;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */

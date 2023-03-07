@@ -85,7 +85,7 @@ body {
   position: absolute;
   top: calc(
     30% + 300px
-  ); /* Add the height of the rectangle to the top position */
+  );
   left: 75%;
   transform: translate(-50%, -50%);
   border: 9px solid white;
