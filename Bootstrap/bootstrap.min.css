@@ -7143,7 +7143,19 @@ i.fas.fa-map-marker-alt {
   }
 }
 
-#googleMap {
+#googleMap1 {
+  width: 80%;
+  height: 400px;
+  border: 9px solid white;
+  margin: 20px auto;
+}
+#googleMap2 {
+  width: 80%;
+  height: 400px;
+  border: 9px solid white;
+  margin: 20px auto;
+}
+#googleMap3 {
   width: 80%;
   height: 400px;
   border: 9px solid white;

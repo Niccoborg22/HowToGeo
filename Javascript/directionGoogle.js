@@ -69,7 +69,7 @@ function calcRoute() {
         } else {
           outputdriving.innerHTML =
             "<div class = 'alert-info'><i class='fa-solid fa-steering-wheel'></i>" +
-            "<strong>Car</strong><br />Distance: " +
+            "<strong>Bicycle</strong><br />Distance: " +
             result.routes[0].legs[0].distance.text +
             "<br /><i class='fa-duotone fa-timer'></i>Duration: " +
             result.routes[0].legs[0].duration.text +
