@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>HowToGeo</title>
     <link href="Bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Css Style/styleDirections.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -62,13 +63,26 @@
           </button>
         </div>
       </div>
+    </div>
+    <div class="jumbotron2">
       <div class="container-fluid">
-        <div id="googleMap1"></div>
-        <div id="outputwalking"></div>
-        <div id="googleMap2"></div>
-        <div id="outputbicycling"></div>
-        <div id="googleMap3"></div>
-        <div id="outputdriving"></div>
+        <div class="row">
+          <div class="col-md-4">
+            <h2><strong>Walking</strong> <i class="fa-solid fa-person-walking-arrow-right"></i></h2>
+            <div id="googleMap1"></div>
+            <div id="outputwalking"></div>
+          </div>
+          <div class="col-md-4">
+            <h2><strong>Bicycle</strong> <i class="fa-solid fa-bicycle"></i></h2>
+            <div id="googleMap2"></div>
+            <div id="outputbicycling"></div>
+          </div>
+          <div class="col-md-4">
+            <h2><strong>Car</strong> <i class="fa-solid fa-car-side"></i></h2>
+            <div id="googleMap3"></div>
+            <div id="outputdriving"></div>
+          </div>
+        </div>
       </div>
     </div>
 
