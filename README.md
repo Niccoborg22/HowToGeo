@@ -1,5 +1,5 @@
-# Mapping-Mobility-Service
-### Final Project Javascript Prompt
+# HowToGeo
+### Final Project Javascript Prompt - Mapping Mobility Service
 Build a single page web with the following characteristics:
 - Can use any mix of HTML, CSS and JavaScript
 - Submit an "index.html" file having:
@@ -18,5 +18,9 @@ The idea is to find a public API that has geographical information on transport 
 3. **Develop the Webpage**: With your plan and design in place, it was time to start developing my webpages. I used a mix of HTML, CSS, and JavaScript to build my webpage. Start by creating the basic HTML structure and then add CSS to style the webpage. Next, add JavaScript code to load, parse and display the data from the API on the map.
 4. **Test and Debug**: Once I had built the webpage, it was time to test it thoroughly to ensure that it works as expected.
 5. **Possible improvements**: Some possible improvements I could implement to the project are:
-    - ...
-    - ...
+    - Use CSS and Bootstrap to work more on the graphics of the website
+    - Add more travelling options such as plane or train
+    - Use React.js to make the website dynamic
+    - Add the carbon footprint emissions for every type of journey
+    - Create a table to recap what is the best travelling option
+    - Create a sort of search engine that according to your priorities suggests the best option
