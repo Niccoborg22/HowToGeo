@@ -1,15 +1,8 @@
 # HowToGeo
-### Final Project Javascript Prompt - Mapping Mobility Service
-Build a single page web with the following characteristics:
-- Can use any mix of HTML, CSS and JavaScript
-- Submit an "index.html" file having:
-  - A short description
-  - A link to the project
-  - Any relevant technical details or comments
-  - Anything that could be improved for a 2.0 version
+### Objective
+HowToGeo aims to help people choose which is the best travelling method available by providing them with the appropriate data to make an informed decision
 
-The idea is to find a public API that has geographical information on transport services: bus stops, refuel stations, train lines, etc. Information must be loaded, parsed and then displayed on a map. You should allow filtering of the different services (i.e. by metro/bus lines, by type, by price range, etc.)
-
+---
 ### Work structure
 1. **Select an API**: Firstly, I researched which Maps API I was going to use for this project. I opted to go for Google Maps API. 
 2. **Plan and Design the Project**: Once I have selected an API, it was time to plan and design your project. I started by creating a first sketch of the web pages I needed for the project. Given the task I opted to go for 2 different HTML web pages, both connected to the Google Maps API:
