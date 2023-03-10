@@ -49,19 +49,19 @@ function calcRoute() {
       origin: document.getElementById("from").value,
       destination: document.getElementById("to").value,
       travelMode: google.maps.TravelMode.WALKING,
-      unitSystem: google.maps.UnitSystem.IMPERIAL,
+      unitSystem: google.maps.UnitSystem.METRIC,
     },
     {
       origin: document.getElementById("from").value,
       destination: document.getElementById("to").value,
       travelMode: google.maps.TravelMode.BICYCLING,
-      unitSystem: google.maps.UnitSystem.IMPERIAL,
+      unitSystem: google.maps.UnitSystem.METRIC,
     },
     {
       origin: document.getElementById("from").value,
       destination: document.getElementById("to").value,
       travelMode: google.maps.TravelMode.DRIVING,
-      unitSystem: google.maps.UnitSystem.IMPERIAL,
+      unitSystem: google.maps.UnitSystem.METRIC,
     },
   ];
 
@@ -90,14 +90,11 @@ function calcRoute() {
       if (status == google.maps.DirectionsStatus.OK) {
         // display the distance and duration for each request
         output.innerHTML =
-          "<div class='alert-info'><i class='fa-solid fa-steering-wheel'></i>" +
-          "<strong>" +
-          requestsArray[i].travelMode +
-          "</strong><br />Distance: " +
+          "<div class='alert-info'></br><h4><i class='fa-solid fa-people-arrows'></i> Distance: " +
           result.routes[0].legs[0].distance.text +
-          "<br /><i class='fa-duotone fa-timer'></i>Duration: " +
+          "</h4><h4><i class='fa-solid fa-clock'></i> Duration: " +
           result.routes[0].legs[0].duration.text +
-          "<br /></div>";
+          "</h4></br></div>";
 
         // display the route for each request
         directionsDisplays[i].setDirections(result);
